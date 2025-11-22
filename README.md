@@ -24,3 +24,15 @@ OpenCV
 MediaPipe
 
 argparse
+
+How It Works
+
+Frame is captured (image or webcam)
+
+Converted to RGB and passed to MediaPipe
+
+Face bounding boxes are extracted
+
+Each face region is blurred using OpenCV
+
+Output is displayed (and saved in image mode)
